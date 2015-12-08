@@ -1,5 +1,0 @@
-#f Fiana
-#l Raiber
-#f Oren
-#l Kurland
-

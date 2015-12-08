@@ -1,6 +1,0 @@
-<<name>>
-First name :  Fiana 
-Last name :  Raiber 
-<<name>>
-First name :  Oren 
-Last name :  Kurland 

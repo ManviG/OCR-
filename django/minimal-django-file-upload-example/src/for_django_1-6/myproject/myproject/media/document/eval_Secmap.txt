@@ -1,0 +1,50 @@
+<<section>>
+Chunks: Journal of Informetrics 9 (2015) ... Elsevier Ltd. All rights reserved.
+<<section>>
+Heading: 1. Introduction 
+Chunks: Biomedical data are being produced ... and identifies possible future work.
+<<section>>
+Heading: 2. Material and methods 
+<<section>>
+Heading: 2.1. Data 
+Chunks: The targeted domain is bioinformatics, ... PMC; they include 804,067 references.
+<<section>>
+Heading: 2.2. Database extraction 
+Chunks: Databases were extracted from the ... Methods|Discussion, Methods|Materials, Methods|Results, and Methods|Subjects.
+<<section>>
+Heading: 2.3. Database link network 
+Chunks: Fig. 1 shows how the ... Fig. 2. Main path procedures.
+<<section>>
+Heading: 2.4. Database topical similarity 
+Chunks: Bio-LDA was used to calculate ... P is defined to be:
+<<section>>
+Heading: D KL (P Q ) = 
+Chunks: i ln P i Q ... PQ is computed as follow:
+<<section>>
+Heading: S PQ = 1 D KL (P Q ) . 
+<<section>>
+Heading: 2.5. Weighted main path algorithm 
+Chunks: The original main path algorithms, ... can be identified and analyzed.
+<<section>>
+Heading: 3. Results 
+Chunks: Our database link networks are ... and similarity-weighted database link networks.
+<<section>>
+Heading: 3.1. Main path analysis: Link-weighted database link network 
+Chunks: To examine the database diffusion ... is related to data analysis.
+<<section>>
+Heading: 3.2. Main path analysis: Similarity-weighted database link network 
+Chunks: Similarly, the weighted MP algorithm ... categories in a given component.
+<<section>>
+Heading: 3.3. Use cases 
+Chunks: 3.3.1. GO and GeneBank To ... for TAIR, TRANSFAC, and PubMed.
+<<section>>
+Heading: 4. Discussion 
+Chunks: To examine topical resemblance between ... the concept of bioinorganic motif.
+<<section>>
+Heading: 5. Conclusion 
+Chunks: In the era of big ... role in enabling scientific innovation.
+<<section>>
+Heading: Acknowledgements 
+Chunks: This work, done as part ... Foundation (Grant Number: NSF 1158670).
+<<section>>
+Heading: References 
