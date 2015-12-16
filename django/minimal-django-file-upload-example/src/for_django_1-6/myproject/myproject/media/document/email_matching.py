@@ -39,7 +39,7 @@ from itertools import izip
 # ord(u"’"): u"'", ord(u"-"):u"",
 # }
 directory = '/var/www/html/OCR++/django/minimal-django-file-upload-example/src/for_django_1-6/myproject/myproject/media/documents/'
-
+names = ""
 track = 0
 track1 = 0
 f = open(directory + 'names.txt','w')
@@ -73,6 +73,8 @@ ma = []
 fullmail = []
 found = 0
 
+print "<email_author>"
+
 with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap.txt','r') as f2:
 	for line1 in f1:
 		x = line1.split()
@@ -105,7 +107,13 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 
 			y1 = y[0].split("@")
 			y1 = y1[0]
-
+			y[0] = y[0].replace('_','')
+			y1 = y1.replace('_','')
+			y[0] = y[0].replace('.','')
+			y1 = y1.replace('.','')
+			for i in range(10):
+				y[0] = y[0].replace(str(i),'')
+				y1 = y1.replace(str(i),'')
 			# author.insert(track1,x)
 			mail.insert(track,y[0])
 			ma.insert(track,y[0])
@@ -116,7 +124,7 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 
 		# print ma
 			#Check if name is a substring of the mail
-	# print author
+	print author
 	if len(mail) > 0 and len(author) > 0:
 		for mai in ma:
 			found = 0
@@ -132,11 +140,11 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 					# print n
 					# print m
 					if n.lower() in m:
-							print "<map>\n\t",
+							print "\t<map>\n\t\t",
 							for na in l:
 								print na,
-							print "\n\t" + mai
-							print "<\map>"
+							print "\n\t\t" + mai
+							print "\t</map>"
 							author.remove(l)
 							mail.remove(mai)
 							found = 1
@@ -175,11 +183,11 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 						else:
 							break
 					if s == len(m):
-						print "<map>\n\t",
+						print "\t<map>\n\t\t",
 						for na in l:
 							print na,
-						print "\n\t" + mai
-						print "<\map>"
+						print "\n\t\t" + mai
+						print "\t</map>"
 						author.remove(l)
 						mail.remove(mai)
 					an = ""
@@ -195,3 +203,5 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 					ma[0:10] = ma[-10:]
 					del ma[10:]
 					track = 10
+
+print "</email_author>"

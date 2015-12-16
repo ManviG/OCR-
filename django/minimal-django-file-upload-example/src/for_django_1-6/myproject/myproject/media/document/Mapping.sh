@@ -6,6 +6,6 @@ $f
 EOF
 
 # echo "name"
-python $Directory/printnameformap.py > $Directory/title_author.txt
+python $Directory/printnameformap.py
 # echo "map"
 python $Directory/email_matching.py > $Directory/map.txt

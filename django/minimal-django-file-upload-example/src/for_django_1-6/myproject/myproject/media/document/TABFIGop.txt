@@ -1,23 +1,18 @@
 <?xml version="1.0" ?>
 <Tables_Figures>
-	<Tables>
-		<table>Table 1 </table>
-		<table>Table 2 </table>
-		<table>Table 3 </table>
-		<table>Table 4 </table>
-		<table>Table 5 </table>
-		<table>Table 6 </table>
-	</Tables>
+	<Tables/>
 	<Figures>
-		<figure>Fig. 1. Database link network. </figure>
-		<figure>Fig. 1 shows how the database link network was generated. For example, if paper A cites paper B (i.e., A B) (Fig. 1a), and database 1 and database 2 are methoned in the methodology section of paper A, while database 3 and database 4 are mentioned in the methodology section of the cited paper B, then we assume that database 1 cites both database 3 and database 4 (database 1 database 3, database 1 database 4), and that database 2 also cites both database 3 and database 4 (database 2 database 3, database 2 database 4) (Fig. 1b). For all the references, only those that appear in PMC were used to create the database link network. Because these are full-text references provided by PMC, databases can then be extracted from their methodology sections. In the end, 32,718 references were identified in PMC, which account for 4.5% of all the journal references. Two database link networks were generated: a link-weighted network and a similarity-weighted network. For the first, nodes represent databases, links represent cites, and link weight represents link count. This network has 591 nodes and 15,449 links. The density of the network is 0.044. The largest link weight (link count) is 1281, with database GO being both the start and end nodes. For the second, the nodes and links are the same as the first one, while link weights represent topical similarity between two databases. </figure>
-		<figure>Fig. 2. Main path procedures. </figure>
-		<figure>Fig. 3. Main path network (link-weighted database link network). </figure>
-		<figure>Fig. 4. Patterns of information transfer within subject categories (link-weighted database link network). </figure>
-		<figure>Fig. 5. Main path network (similarity-weighted database link network). </figure>
-		<figure>Fig. 6. Patterns of information transfer within subject categories (similarity-weighted database link network). </figure>
-		<figure>Fig. 7. The connections between GO and GeneBank with other major databases. </figure>
-		<figure>Fig. 8. Semantic graph of PlantCARE and PLACE. </figure>
+		<figure>Fig. 1 Optical flow of spinning sphere. </figure>
+		<figure>Fig. 2 Comparison of angular error between HS and LK. </figure>
+		<figure>Fig. 3 Convergency property measured in three methods. </figure>
+		<figure>Fig. 4 Random-pattern-textured translating rectangle. </figure>
+		<figure>Fig. 5 Endpoint error for motion from 1 to 6 pixels. </figure>
+		<figure>Fig. 6 Errors with increasing motion magnitude. </figure>
+		<figure>Fig. 7 Flexible birdlike airfoil. </figure>
+		<figure>Fig. 8 Stereo camera setup. </figure>
+		<figure>Fig. 9 Airfoil images (a = 8, u </figure>
+		<figure>Fig. 10 Vertical deformation of different methods (a = 8, u 1 = 08 m/s). </figure>
+		<figure>Fig. 11 Vertical deformation curves and trailing edge displacements. </figure>
 	</Figures>
 </Tables_Figures>
 

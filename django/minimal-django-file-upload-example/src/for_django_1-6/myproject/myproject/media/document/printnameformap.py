@@ -1,38 +1,32 @@
-author = "barno"
+from __future__ import division
+
+import xml.etree.ElementTree as ET
 directory = '/var/www/html/OCR++/django/minimal-django-file-upload-example/src/for_django_1-6/myproject/myproject/media/documents/'
 
-flag = "0"   # to check if a title is already going on
-end = 0
-with open(directory + 'final.txt','r') as f:
-    for line in f:
-        abc = line.split()
 
-        if len(abc) > 1:  # if not a blank line
+# """
+# Create an summary file of author names
+# """
+def genFile(fName, path=""):
+    tree = ET.parse(directory + "TitleAuthor.xml")
+    root = tree.getroot()
+    f = open(directory + 'title_author.txt','w')
+    for author in root.findall('name'):
+        fn = author.findall('first_name')
+        mn = author.findall('middle_name')
+        ln = author.findall('last_name')
+        # print "<<section>>"
+        # f.write("<<name>>\n")
+        print fn[0].text.split()[0]
+        if(len(fn)>0):
+            f.write("#f "+fn[0].text.split()[0]+"\n")
+        if(len(mn)>0):
+            f.write("#m "+mn[0].text.strip('\t').strip('\n').strip('\t')+"\n")
+        if(len(ln)>0):
+            f.write("#l "+ln[0].text.split()[0]+"\n")
+    f.close()
+    print "Done!!!"
 
-        	# print "***" + abc[0]
 
-        	if(abc[6]=="00"):
-        		print
-
-	        if abc[6] == "1":   #output column
-	        	if flag == "0":  #if start of title
-	        		print("#t"),
-	        	print(abc[0] + ' '),
-	        	flag = "1"
-	        else:
-	        	if abc[0] != "0" and flag == "1":
-	        		flag = "0"
-	        		print
-
-	        if abc[7] == "2": #first name
-	        	x = abc[0].strip(',')
-	        	print("#f " + x)
-
-	        if abc[7] == "3": #middle name
-	        	x = abc[0].strip(',')
-	        	print("#m " + x)
-
-	        if abc[7] == "4":  #last name
-	        	x = abc[0].strip(',')
-	        	print("#l " + x)
-	        	
+"""Demo call"""
+genFile("TitleAuthor.xml")

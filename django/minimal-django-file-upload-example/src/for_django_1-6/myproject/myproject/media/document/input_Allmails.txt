@@ -1,4 +1,8 @@
 
 <email>
-	yuqi351@gmail.com
+	xlianggong@gmail.com
+</email>
+
+<email>
+	cja@buaa.edu.cn
 </email>

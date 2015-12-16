@@ -1,0 +1,7 @@
+<email_author>
+[['Gong', 'Xiaoliang'], ['Stephan', 'Bansmer']]
+	<map>
+		Gong Xiaoliang 
+		xlianggong@gmailcom
+	</map>
+</email_author>

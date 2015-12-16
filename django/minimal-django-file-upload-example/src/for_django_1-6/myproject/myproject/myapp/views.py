@@ -190,6 +190,7 @@ def vote(request):
     return HttpResponse("Done")
 
 def runScript():
+    subprocess.call("rm " + directory + "input.pdf", shell=True)
     # print paperid
     file_name = glob.glob(directory+'*.pdf')
     # print file_name[0] + "****************************"

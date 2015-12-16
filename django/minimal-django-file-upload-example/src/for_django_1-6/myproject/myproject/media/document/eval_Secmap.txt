@@ -1,50 +1,41 @@
 <<section>>
-Chunks: Journal of Informetrics 9 (2015) ... Elsevier Ltd. All rights reserved.
+Chunks: HornSchunck optical flow applied to ... the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
 <<section>>
 Heading: 1. Introduction 
-Chunks: Biomedical data are being produced ... and identifies possible future work.
+Chunks: For the past few decades, ... deformation of a birdlike airfoil.
 <<section>>
-Heading: 2. Material and methods 
+Heading: 2. HornSchunck optical flow 
+Chunks: Since Horn and Schunck proposed ... flow field can be retrieved.
 <<section>>
-Heading: 2.1. Data 
-Chunks: The targeted domain is bioinformatics, ... PMC; they include 804,067 references.
+Heading: 2.1. Improvements of original HS model 
+Chunks: As proved by many later ... denotes the occlusion labeling, G
 <<section>>
-Heading: 2.2. Database extraction 
-Chunks: Databases were extracted from the ... Methods|Discussion, Methods|Materials, Methods|Results, and Methods|Subjects.
+Heading: X X; r 
+Chunks: X a Gaussian kernel on ... by Sun et al. 30
 <<section>>
-Heading: 2.3. Database link network 
-Chunks: Fig. 1 shows how the ... Fig. 2. Main path procedures.
+Heading: 2.2. Improvements of minimizations of original HS 
+Chunks: Apart from some defects in ... velocity was set to zero.
 <<section>>
-Heading: 2.4. Database topical similarity 
-Chunks: Bio-LDA was used to calculate ... P is defined to be:
+Heading: 3. Validation of HS optical flow 
 <<section>>
-Heading: D KL (P Q ) = 
-Chunks: i ln P i Q ... PQ is computed as follow:
+Heading: 3.1. LK optical flow 
+Chunks: To validate the HS optical ... used to preserve motion discontinuity.
 <<section>>
-Heading: S PQ = 1 D KL (P Q ) . 
+Heading: 3.2. Spinning sphere 
+Chunks: To compare the results of ... line in the flow field.
 <<section>>
-Heading: 2.5. Weighted main path algorithm 
-Chunks: The original main path algorithms, ... can be identified and analyzed.
+Heading: 3.3. Translating rectangle 
+Chunks: The second synthetic image sequence ... motion limitation of LK. 20
 <<section>>
-Heading: 3. Results 
-Chunks: Our database link networks are ... and similarity-weighted database link networks.
+Heading: 4. Experimental setup 
+Chunks: Wind tunnel experiments of measuring ... is in earlier work. 20
 <<section>>
-Heading: 3.1. Main path analysis: Link-weighted database link network 
-Chunks: To examine the database diffusion ... is related to data analysis.
+Heading: 5. Experimental results 
 <<section>>
-Heading: 3.2. Main path analysis: Similarity-weighted database link network 
-Chunks: Similarly, the weighted MP algorithm ... categories in a given component.
+Heading: 5.1. Optical flow for airfoil deformation measurements 
+Chunks: Because the largest pattern displacement ... of a birdlike airfoil 1311
 <<section>>
-Heading: 3.3. Use cases 
-Chunks: 3.3.1. GO and GeneBank To ... for TAIR, TRANSFAC, and PubMed.
+Heading: 5.2. Airfoil vertical deformation 
+Chunks: After camera calibration, the 3-D ... demonstrated in Fig. 11 (b).
 <<section>>
-Heading: 4. Discussion 
-Chunks: To examine topical resemblance between ... the concept of bioinorganic motif.
-<<section>>
-Heading: 5. Conclusion 
-Chunks: In the era of big ... role in enabling scientific innovation.
-<<section>>
-Heading: Acknowledgements 
-Chunks: This work, done as part ... Foundation (Grant Number: NSF 1158670).
-<<section>>
-Heading: References 
+Heading: 6. Conclusions 

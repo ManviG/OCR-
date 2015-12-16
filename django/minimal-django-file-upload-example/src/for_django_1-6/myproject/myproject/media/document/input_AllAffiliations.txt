@@ -1,24 +1,12 @@
 
 	<Affiliation>
-		Shanxi Medical University 56 Xinjian South Road Taiyuan 030001 China 
+		Northwestern Polytechnical University 710072 China 
 	</Affiliation>
 
 	<Affiliation>
-		Indiana University Bloomington IN USA 
+		b Institute of Fluid Mechanics Technische Braunschweig Braunschweig 38108 Germany 
 	</Affiliation>
 
 	<Affiliation>
-		Yonsei University Seoul South Korea 
-	</Affiliation>
-
-	<Affiliation>
-		Chinese Academy of Sciences Beijing China 
-	</Affiliation>
-
-	<Affiliation>
-		Wuhan University Wuhan China 
-	</Affiliation>
-
-	<Affiliation>
-		Acids Research Molecular Biology Database Collection (available online) which includes 1512 
+		& Beihang University 
 	</Affiliation>

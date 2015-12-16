@@ -1,6 +1,0 @@
-<<Affiliation>> Shanxi Medical University 56 Xinjian South Road Taiyuan 030001 China
-<<Affiliation>> Indiana University Bloomington IN USA
-<<Affiliation>> Yonsei University Seoul South Korea
-<<Affiliation>> Chinese Academy of Sciences Beijing China
-<<Affiliation>> Wuhan University Wuhan China
-<<Affiliation>> Acids Research Molecular Biology Database Collection (available online) which includes 1512

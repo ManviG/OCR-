@@ -1,136 +1,82 @@
-<Reference id="1" >Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) </Reference>
+<Reference id="1" >1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. </Reference>
 
-<Reference id="2" >Bolser, D. M., Chibon, P. Y., Palopoli, N., Gong, S., Jacob, D., Del Angel, V. D., et al. (2012). MetaBaseThe wiki-database of biological databases. Nucleic Acids Research, 40(D1), D1250D1254. </Reference>
+<Reference id="2" >2. Lunsford N, Jacob J. High speed videogrammetry of flexible wings in flapping flight. 47th AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition. Reston: AIAA; 2009. p. 114. </Reference>
 
-<Reference id="3" >Bornmann, L., & Leydesdorff, L. (2013). Macro-indicators of citation impacts of six prolific countries: In cites data and the statistical significance of trends. PLoS One, 8(2), e56768. </Reference>
+<Reference id="3" >3. Burner AW, Radeztsky RH, Liu T. Videometric applications in wind tunnels. In: Bellingham V, editor. Proceedings of SPIE 3174, videometrics. SPIE; 1997. p. 23447. </Reference>
 
-<Reference id="4" >Brazas, M. D., Yim, D. S., Yamada, J. T., & Ouellette, B. F. F. (2011). The 2011 bioinformatics links directory update: More resources, tools and databases and features to empower the bioinformatics community. Nucleic Acids Research, 39, W3W7. </Reference>
+<Reference id="4" >4. Graves S, Burner A, Edwards J, Schuster D. Dynamic deforma- tion measurements of an aeroelastic semispan model. J Aircr 2003;40(5):97784. </Reference>
 
-<Reference id="5" >Carley, K. M., Hummon, N. P., & Harty, M. (1993). Scientific influenceAn analysis of the main path structure in the journal of conflict-resolution. Science Communication, 14(4), 417447. </Reference>
+<Reference id="5" >5. Chakravarthy A, Albertani R, Gans N, Evers J. Experimental kinematics and dynamics of butterflies in natural flight. 47th AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition. Reston: AIAA; 2009. p. 112. </Reference>
 
-<Reference id="6" >de la Pena, J. A. (2011). Impact functions on the citation network of scientific articles. Journal of Informetrics, 5(4), 565573. </Reference>
+<Reference id="6" >6. Asme T, Guard O, Rao KR, Bunce R. A stereo videogrammetry system for monitoring wind turbine blade surfaces during struc- tural testing. ASME early career technical conference. New York: ASME; 2009. p. 110. </Reference>
 
-<Reference id="7" >Ding, Y. (2011). Scientific collaboration and endorsement: Network analysis of coauthorship and citation networks. Journal of Informetrics, 5(1), 187203. </Reference>
+<Reference id="7" >7. Liu TS, Montefort J, Gregory J, Palluconi S, Crafton J, Fonov S. Wing deformation measurements from pressure sensitive paint images using videogrammetry. 41st AIAA fluid dynamics confer- ence and exhibit. Reston: AIAA; 2011. p. 131. </Reference>
 
-<Reference id="8" >Ding, Y., Song, M., Han, J., Yu, Q., Yan, E., Lin, L. L., et al. (2013). Entitymetrics: Measuring the Impact of Entities. PLoS One, 8(8), e71416. 15 </Reference>
+<Reference id="8" >8. Baumann PH, Butefisch KA. Measurement of hinge moments and model deformations in wind tunnels by means of moire  interfer- ometry. Proceedings of SPIE 2546, optical techniques in fluid, thermal, and combustion flow. Bellingham: SPIE; 1995. p. 1632. </Reference>
 
-<Reference id="9" >Ding, Y., Yan, E. J., Frazho, A., & Caverlee, J. (2009). Page rank for ranking authors in co-citation networks. Journal of the American Society for Information Science and Technology, 60(11), 22292243. </Reference>
+<Reference id="9" >9. Leifer J, Black JT, Smith SW, Ma N, Lumpp JK. Measurement of in-plane motion of thin-film structures using videogrammetry. J Spacecr Rockets 2007;44(6):131725. </Reference>
 
-<Reference id="10" >Eccles, K. E., Thelwall, M., & Meyer, E. T. (2012). Measuring the web impact of digitised scholarly resources. Journal of Documentation, 68(4), 512526. </Reference>
+<Reference id="10" >10. Raffel M, Willert C, Kompenhans J. Particle image velocimetry: a practical guide. 2nd ed. Berlin: Springer; 2007. p. 79226. </Reference>
 
-<Reference id="11" >Fernandez-Suarez, X. M., & Galperin, M. Y. (2013). The 2013 Nucleic Acids Research Database Issue and the online Molecular Biology Database Collection. Nucleic Acids Research, 41(D1), D1D7. </Reference>
+<Reference id="11" >11. Thomas W, Robert K, Erlinghagen T, Wagner H. Shape and deformation measurement of free flying birds in flapping flight. In: Tropea C, Bleckmann H, editors. Nature-inspired fluid mechan- ics. Berlin: Springer; 2012. p. 13548. </Reference>
 
-<Reference id="12" >Hawley, D. R., & Geske, S. (2000). The use of theory in family therapy research: A content analysis of family therapy journals. Journal of Marital and Family Therapy, 26(1), 1722. </Reference>
+<Reference id="12" >12. Schmidt T, Tyson J, Galanulis K. Full-field dynamic displacement and strain measurement using advanced 3D image correlation photogrammetry: part 1. Exp Technol 2003;27(3):4750. </Reference>
 
-<Reference id="13" >Hu, C. P., Hu, J. M., Deng, S. L., & Liu, Y. (2013). A co-word analysis of library and information science in China. Scientometrics, 97(2), 369382. </Reference>
+<Reference id="13" >13. Siebert T, Neumann I. High-speed digital image correlation: error estimations and applications. Opt Eng 2007;46(5):051004. </Reference>
 
-<Reference id="14" >Huang, H., Andrews, J., & Tang, J. (2012). Citation characterization and impact normalization in bioinformatics journals. Journal of the American Society for Information Science and Technology, 63(3), 490497. </Reference>
+<Reference id="14" >14. Lawson M, Sirohi J. Measurement of deformation of rotating blades using digital image correlation. 52nd AIAA/ASME/ASCE/ AHS/ASC structures, structural dynamics and materials confer- ence. Reston: AIAA; 2011. p. 115. </Reference>
 
-<Reference id="15" >Hummon, N. P., & Doreian, P. (1989). Connectivity in a citation network: The development of DNA theory. Social Networks, 11(1), 3663. </Reference>
+<Reference id="15" >15. Jennings A, Black J. Texture-based photogrammetry accuracy on curved surfaces. AIAA J 2012;50(5):106071. </Reference>
 
-<Reference id="16" >Jie, T., Ruoming, J., & Jing, Z. (2008). A topic modeling approach and its integration into the random walk framework for academic search. In Data mining, 2008. ICDM 08. Eighth IEEE international conference on (pp. 10551060). </Reference>
+<Reference id="16" >16. Barron JL, Fleet DJ, Beauchemin SS. Performance of optical flow techniques. Int J Comput Vis 1994;12(1):4377. </Reference>
 
-<Reference id="17" >Kullback, S., & Leibler, R. A. (1951). On information and sufficiency. The Annals of Mathematical Statistics, 7986. </Reference>
+<Reference id="17" >17. Horn BKP, Schunck BG. Determining optical flow. Artif Intell 1981;17(13):185203. </Reference>
 
-<Reference id="18" >Lu, L. Y. Y., & Liu, J. S. (2013). An innovative approach to identify the knowledge diffusion path: The case of resource-based theory. Scientometrics, 94(1), 225246. </Reference>
+<Reference id="18" >18. Lucas BD, Kanade T. An iterative image registration technique with an application to stereo vision. Proceedings of the 7th international joint conference on artificial intelligence. San Fran- cisco: Morgan Kaufmann Publishers Inc.; 1981. p. 6749. </Reference>
 
-<Reference id="19" >Lucio-Arias, D., & Leydesdorff, L. (2008). Main-path analysis and path-dependent transitions in HistCite (TM)-based historiograms. Journal of the American Society for Information Science and Technology, 59(12), 19481962. </Reference>
+<Reference id="19" >19. Bruhn A, Weickert J, Schno  rr C. Lucas/Kanade meets Horn/ Schunck: combining local and global optic flow methods. Int J Comput Vis 2005;61(3):121. </Reference>
 
-<Reference id="20" >Luscombe, N. M., Greenbaum, D., & Gerstein, M. (2001). What is bioinformatics? A proposed definition and overview of the field. Methods of Information in Medicine, 40(4), 346358. </Reference>
+<Reference id="20" >20. Gong XL, Bansmer S, Strobach C, Unger R, Haupt M. Defor- mation measurement of a birdlike airfoil with optical flow and numerical simulation. AIAA J 2014;52(12):280716. </Reference>
 
-<Reference id="21" >Medina, C. M. C., & van Leeuwen, T. N. (2012). Seed journal citation network maps: A method based on network theory. Journal of the American Society for Information Science and Technology, 63(6), 12261234. </Reference>
+<Reference id="21" >21. Baker S, Scharstein D, Lewis JP. A database and evaluation methodology for optical flow. Int J Comput Vis 2011;92(1):131. </Reference>
 
-<Reference id="22" >Mons, B., van Haagen, H., Chichester, C., Hoen, P.-B. T., den Dunnen, J. T., van Ommen, G., et al. (2011). The value of data. Nature Genetics, 43(4), 281283. </Reference>
+<Reference id="22" >22. Nagel HH. Constraints for the estimation of displacement vector fields from image sequences. International Joint Conference on artificial intelligence. San Francisco: Morgan Kaufmann Publish- ers Inc.; 1983. p. 94551. </Reference>
 
-<Reference id="23" >Pettigrew, K. E., & McKechnie, L. (2001). The use of theory in information science research. Journal of the American Society for Information Science and Technology, 52(1), 6273. </Reference>
+<Reference id="23" >23. Black MJ, Anandan P. A framework for the robust estimation of optical flow. 4th International conference on computer vision. Pis- cataway, NJ: IEEE Press; 1993. p. 2316. </Reference>
 
-<Reference id="24" >Reichhardt, T. (1999). Its sink or swim as a tidal wave of data approaches. Nature, 399(6736), 517520. </Reference>
+<Reference id="24" >24. Brox T, Papenberg N, Weickert J. High accuracy optical flow estimation based on a theory for warping. 8th European conference on computer vision. Berlin: Springer; 2004. p. 2536. </Reference>
 
-<Reference id="25" >Sun, Y. Z., & Han, J. W. (2013). Meta-path-based search and mining in heterogeneous information networks. Tsinghua Science and Technology, 18(4), 329338. </Reference>
+<Reference id="25" >25. Zach C, Pock T, Bischof H. A duality based approach for realtime TV-L 1 optical flow. 29th DAGM symposium. Berlin: Springer; 2007. p. 21423. </Reference>
 
-<Reference id="26" >Tan, F., Li, L., Zhang, Z. Y., & Guo, Y. L. (2013). Latent co-interests relationship prediction. Tsinghua Science and Technology, 18(4), 379386. </Reference>
+<Reference id="26" >26. Brox T, Weickert J. Nonlinear matrix diffusion for optic flow estimation. 24th DAGM symposium. Berlin: Springer; 2002. p. 44653. </Reference>
 
-<Reference id="27" >Urquhart, C., & Dunn, S. (2013). A bibliometric approach demonstrates the impact of a social care data set on research and policy. Health Information and Libraries Journal, 30(4), 294302. </Reference>
+<Reference id="27" >27. Xiao JJ, Cheng H, Sawhney H. Bilateral filtering-based optical flow estimation with occlusion detection. 9th European conference on computer vision. Berlin: Springer; 2006. p. 21124. </Reference>
 
-<Reference id="28" >Vieira, E. S., & Gomes, J. (2010). A research impact indicator for institutions. Journal of Informetrics, 4(4), 581590. </Reference>
+<Reference id="28" >28. Sand P, Teller S. Particle video: long-range motion estimation using point trajectories. Int J Comput Vis 2008;80(1):7291. </Reference>
 
+<Reference id="29" >29. Westerweel J. Efficient detection of spurious vectors in particle image velocimetry data. Exp Fluids 1994;16(34):23647. </Reference>
 
+<Reference id="30" >30. Sun DQ, Roth S, Black MJ. Secrets of optical flow estimation and their principles. IEEE computer society conference on computer vision and pattern recognition. Piscataway, NJ: IEEE Press; 2010. p. 24329. </Reference>
 
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >Taiyuan 0300</citation>
+<Reference id="31" >31. Bouguet J. Pyramidal implementation of the Lucas Kanade feature tracker description of the algorithm. Santa Clara, CA: Intel Corporation, Microprocessor Research Labs; 1999. p. 19. </Reference>
 
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >July 2014</citation>
+<Reference id="32" >32. Galvin B, McCane B, Novins K, Mason D, Mills S. Recovering motion fields: an evaluation of eight optical flow algorithms. British machine vision conference. Manchester: BMVC; 1998. p. 195204. </Reference>
 
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >September 2014</citation>
+<Reference id="33" >33. Bansmer S, Buchmann N, Radespiel R, Unger R, Haupt M, Horst P, et al. Aerodynamics and structural mechanics of flapping flight with elastic and stiff wings. In: Bleckmann H, Tropea Ca, editors. Nature-inspired fluid mechanics. Berlin: Springer; 2012. p. 33154. </Reference>
 
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >October 2014</citation>
+<Reference id="34" >34. Soloff SM, Adrian RJ, Liu ZC. Distortion compensation for generalized stereoscopic particle image velocimetry. Meas Sci Technol 1997;8(12):144154. </Reference>
 
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >November 2014</citation>
 
-<citation ref_id="11"  reference="Fernandez-Suarez, X. M., & Galperin, M. Y. (2013). The 2013 Nucleic Acids Research Database Issue and the online Molecular Biology Database Collection. Nucleic Acids Research, 41(D1), D1D7. " >The 2013</citation>
 
-<citation ref_id="20"  reference="Luscombe, N. M., Greenbaum, D., & Gerstein, M. (2001). What is bioinformatics? A proposed definition and overview of the field. Methods of Information in Medicine, 40(4), 346358. " >Gerstein, 2001</citation>
+<citation ref_id="1"  reference="1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. " >University, 7100</citation>
 
-<citation ref_id="24"  reference="Reichhardt, T. (1999). Its sink or swim as a tidal wave of data approaches. Nature, 399(6736), 517520. " >Reichhardt, 1999</citation>
+<citation ref_id="1"  reference="1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. " >Braunschweig 3810</citation>
 
-<citation ref_id="22"  reference="Mons, B., van Haagen, H., Chichester, C., Hoen, P.-B. T., den Dunnen, J. T., van Ommen, G., et al. (2011). The value of data. Nature Genetics, 43(4), 281283. " >Mons et al., 2011</citation>
+<citation ref_id="1"  reference="1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. " >October 2014</citation>
 
-<citation ref_id="22"  reference="Mons, B., van Haagen, H., Chichester, C., Hoen, P.-B. T., den Dunnen, J. T., van Ommen, G., et al. (2011). The value of data. Nature Genetics, 43(4), 281283. " >Mons et al., 2011</citation>
+<citation ref_id="1"  reference="1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. " >April 2015</citation>
 
-<citation ref_id="11"  reference="Fernandez-Suarez, X. M., & Galperin, M. Y. (2013). The 2013 Nucleic Acids Research Database Issue and the online Molecular Biology Database Collection. Nucleic Acids Research, 41(D1), D1D7. " >Galperin, 2013</citation>
+<citation ref_id="1"  reference="1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. " >May 2015</citation>
 
-<citation ref_id="2"  reference="Bolser, D. M., Chibon, P. Y., Palopoli, N., Gong, S., Jacob, D., Del Angel, V. D., et al. (2012). MetaBaseThe wiki-database of biological databases. Nucleic Acids Research, 40(D1), D1250D1254. " >Bolser et al., 2012</citation>
-
-<citation ref_id="4"  reference="Brazas, M. D., Yim, D. S., Yamada, J. T., & Ouellette, B. F. F. (2011). The 2011 bioinformatics links directory update: More resources, tools and databases and features to empower the bioinformatics community. Nucleic Acids Research, 39, W3W7. " >Ouellette, 2011</citation>
-
-<citation ref_id="27"  reference="Urquhart, C., & Dunn, S. (2013). A bibliometric approach demonstrates the impact of a social care data set on research and policy. Health Information and Libraries Journal, 30(4), 294302. " >Urquhart and Dunn (2013)</citation>
-
-<citation ref_id="27"  reference="Urquhart, C., & Dunn, S. (2013). A bibliometric approach demonstrates the impact of a social care data set on research and policy. Health Information and Libraries Journal, 30(4), 294302. " >Dunn, 2013</citation>
-
-<citation ref_id="10"  reference="Eccles, K. E., Thelwall, M., & Meyer, E. T. (2012). Measuring the web impact of digitised scholarly resources. Journal of Documentation, 68(4), 512526. " >Meyer (2012)</citation>
-
-<citation ref_id="10"  reference="Eccles, K. E., Thelwall, M., & Meyer, E. T. (2012). Measuring the web impact of digitised scholarly resources. Journal of Documentation, 68(4), 512526. " >Eccles et al., 2012</citation>
-
-<citation ref_id="8"  reference="Ding, Y., Song, M., Han, J., Yu, Q., Yan, E., Lin, L. L., et al. (2013). Entitymetrics: Measuring the Impact of Entities. PLoS One, 8(8), e71416. 15 " >Ding et al., 2013</citation>
-
-<citation ref_id="6"  reference="de la Pena, J. A. (2011). Impact functions on the citation network of scientific articles. Journal of Informetrics, 5(4), 565573. " >Pena, 2011</citation>
-
-<citation ref_id="9"  reference="Ding, Y., Yan, E. J., Frazho, A., & Caverlee, J. (2009). Page rank for ranking authors in co-citation networks. Journal of the American Society for Information Science and Technology, 60(11), 22292243. " >Caverlee, 2009</citation>
-
-<citation ref_id="8"  reference="Ding, Y., Song, M., Han, J., Yu, Q., Yan, E., Lin, L. L., et al. (2013). Entitymetrics: Measuring the Impact of Entities. PLoS One, 8(8), e71416. 15 " >Han, 2013</citation>
-
-<citation ref_id="21"  reference="Medina, C. M. C., & van Leeuwen, T. N. (2012). Seed journal citation network maps: A method based on network theory. Journal of the American Society for Information Science and Technology, 63(6), 12261234. " >Leeuwen, 2012</citation>
-
-<citation ref_id="28"  reference="Vieira, E. S., & Gomes, J. (2010). A research impact indicator for institutions. Journal of Informetrics, 4(4), 581590. " >Gomes, 2010</citation>
-
-<citation ref_id="13"  reference="Hu, C. P., Hu, J. M., Deng, S. L., & Liu, Y. (2013). A co-word analysis of library and information science in China. Scientometrics, 97(2), 369382. " >Liu, 2013</citation>
-
-<citation ref_id="7"  reference="Ding, Y. (2011). Scientific collaboration and endorsement: Network analysis of coauthorship and citation networks. Journal of Informetrics, 5(1), 187203. " >Ding (2011)</citation>
-
-<citation ref_id="7"  reference="Ding, Y. (2011). Scientific collaboration and endorsement: Network analysis of coauthorship and citation networks. Journal of Informetrics, 5(1), 187203. " >Ding, 2011</citation>
-
-<citation ref_id="8"  reference="Ding, Y., Song, M., Han, J., Yu, Q., Yan, E., Lin, L. L., et al. (2013). Entitymetrics: Measuring the Impact of Entities. PLoS One, 8(8), e71416. 15 " >Ding et al., 2013</citation>
-
-<citation ref_id="23"  reference="Pettigrew, K. E., & McKechnie, L. (2001). The use of theory in information science research. Journal of the American Society for Information Science and Technology, 52(1), 6273. " >McKechnie, 2001</citation>
-
-<citation ref_id="12"  reference="Hawley, D. R., & Geske, S. (2000). The use of theory in family therapy research: A content analysis of family therapy journals. Journal of Marital and Family Therapy, 26(1), 1722. " >Geske, 2000</citation>
-
-<citation ref_id="15"  reference="Hummon, N. P., & Doreian, P. (1989). Connectivity in a citation network: The development of DNA theory. Social Networks, 11(1), 3663. " >Hummon and Doreian (1989)</citation>
-
-<citation ref_id="5"  reference="Carley, K. M., Hummon, N. P., & Harty, M. (1993). Scientific influenceAn analysis of the main path structure in the journal of conflict-resolution. Science Communication, 14(4), 417447. " >Harty, 1993</citation>
-
-<citation ref_id="13"  reference="Hu, C. P., Hu, J. M., Deng, S. L., & Liu, Y. (2013). A co-word analysis of library and information science in China. Scientometrics, 97(2), 369382. " >Liu, 2013</citation>
-
-<citation ref_id="19"  reference="Lucio-Arias, D., & Leydesdorff, L. (2008). Main-path analysis and path-dependent transitions in HistCite (TM)-based historiograms. Journal of the American Society for Information Science and Technology, 59(12), 19481962. " >Leydesdorff, 2008</citation>
-
-<citation ref_id="8"  reference="Ding, Y., Song, M., Han, J., Yu, Q., Yan, E., Lin, L. L., et al. (2013). Entitymetrics: Measuring the Impact of Entities. PLoS One, 8(8), e71416. 15 " >Ding et al., 2013</citation>
-
-<citation ref_id="11"  reference="Fernandez-Suarez, X. M., & Galperin, M. Y. (2013). The 2013 Nucleic Acids Research Database Issue and the online Molecular Biology Database Collection. Nucleic Acids Research, 41(D1), D1D7. " >The 2013</citation>
-
-<citation ref_id="16"  reference="Jie, T., Ruoming, J., & Jing, Z. (2008). A topic modeling approach and its integration into the random walk framework for academic search. In Data mining, 2008. ICDM 08. Eighth IEEE international conference on (pp. 10551060). " >Jing, 2008</citation>
-
-<citation ref_id="17"  reference="Kullback, S., & Leibler, R. A. (1951). On information and sufficiency. The Annals of Mathematical Statistics, 7986. " >Leibler, 1951</citation>
-
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >Lefebvre, 2008</citation>
-
-<citation ref_id="1"  reference="Blondel, V. D., Guillaume, J., Lambiotte, R., & Lefebvre, E. (2008). Fast unfolding of communities in large networks. Journal of Statistical Mechanics: Theory and Experiment, (10), P10008. http://dx.doi.org/10.1088/1742-5468/2008/10/P10008 (12pp) " >NSF 1158</citation>
+<citation ref_id="1"  reference="1. Brooks JD, Beamish JK. Measurement of Model Aeroelastic Deformations In The Wind Tunnel At Transonic Speeds Using Stereo Photogrammetry. Washington, D.C.: NASA Langley Research Center; 1977, Report No.: NASA-TP-1010. " >September 2015</citation>
 

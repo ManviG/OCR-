@@ -1,0 +1,23 @@
+
+<<figure>>
+Fig. 1 Optical flow of spinning sphere.
+<<figure>>
+Fig. 2 Comparison of angular error between HS and LK.
+<<figure>>
+Fig. 3 Convergency property measured in three methods.
+<<figure>>
+Fig. 4 Random-pattern-textured translating rectangle.
+<<figure>>
+Fig. 5 Endpoint error for motion from 1 to 6 pixels.
+<<figure>>
+Fig. 6 Errors with increasing motion magnitude.
+<<figure>>
+Fig. 7 Flexible birdlike airfoil.
+<<figure>>
+Fig. 8 Stereo camera setup.
+<<figure>>
+Fig. 9 Airfoil images (a = 8, u
+<<figure>>
+Fig. 10 Vertical deformation of different methods (a = 8, u 1 = 08 m/s).
+<<figure>>
+Fig. 11 Vertical deformation curves and trailing edge displacements.
