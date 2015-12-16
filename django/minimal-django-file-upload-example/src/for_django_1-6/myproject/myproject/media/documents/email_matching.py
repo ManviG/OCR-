@@ -90,7 +90,11 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 			# y1 = y[0].split("@")
 			# y1 = y1[0]
 
-			author.insert(track1,x)
+			uni_x = []
+			for it in x:
+				it = unicodedata.normalize('NFKD',it.decode("utf-8","ignore")).encode("ascii","ignore")
+				uni_x.append(it)
+			author.insert(track1,uni_x)
 			# mail.insert(track,y[0])
 			# ma.insert(track,y[0])
 			track1 = track1 + 1
@@ -124,7 +128,7 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 
 		# print ma
 			#Check if name is a substring of the mail
-	print author
+	# print author
 	if len(mail) > 0 and len(author) > 0:
 		for mai in ma:
 			found = 0
