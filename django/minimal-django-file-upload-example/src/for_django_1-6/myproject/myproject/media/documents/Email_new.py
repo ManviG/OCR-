@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import unicodedata
 import operator
 import copy
+import re
 
 # Binary converter for strings
 def binary(x):
@@ -13,15 +14,16 @@ def binary(x):
 
 def isEmail(y):
     x=y.strip()
+    x = x.strip('.')
     isatr = 0
     for i in range(len(x)):
         if x[i] == "@":
             isatr = 1
-        if((isatr==1) and (x[i]==".") and (x[i+1]<"z" and x[i+1]>"a")):
+        if((isatr==1) and (x[i]==".")):# and (x[i+1]<"z" and x[i+1]>"a")):
             return "1"
     return "0"
-directory = "/var/www/html/OCR++/django/minimal-django-file-upload-example/src/for_django_1-6/myproject/myproject/media/documents/"
-a_file = directory + "input.xml"#a_file = "pdfs/acl1.xml"
+directory = "/var/www/html/OCR++/django/minimal-django-file-upload-example/src/for_django_1-6/myproject/myproject/media/documents/"#raw_input()+"/"#/home/priyank/Desktop/Projects/pdfs/"
+a_file = directory + "input_2.xml"#a_file = "pdfs/acl1.xml"
 foutMail = open(a_file.split(".")[0] + '_mail_parse.txt','w')
 foutMail.write("0\t0\t0\n")
 p = []
@@ -66,53 +68,76 @@ def processTokenForMail(word):
         del p[:]
     return isthisemail
 
-def concatBeforeAt(string,posAtTheRate):
-    #print string
-    string = string[:posAtTheRate-1] + string[posAtTheRate:]
-    #print string
-    return string
-    
-def concatAfterAt(string,posAtTheRate):
-    #print string
-    string = string[:posAtTheRate+1] + string[posAtTheRate+2:]
-    #print string
-    return string[:-1]
 
 def processStringForMail(string):
+    string = string.strip()
     posAtTheRate = string.find("@")
-    if posAtTheRate == -1 or posAtTheRate == 0:
+    if posAtTheRate == -1 or posAtTheRate == 0 or posAtTheRate == len(string)-1:
         return -1
-    if string[posAtTheRate-1] == ' ':
-        string = concatBeforeAt(string,posAtTheRate)
-    if string[posAtTheRate+1] == ' ':
-        string = concatAfterAt(string,posAtTheRate)
+    string = string.replace("@ ","@").replace(" @","@")
+    p = re.finditer(r'[.] [a-z]', string)
+    p = [m.start() for m in p]
+    sub = 0
+    for pos in p:
+        string = string[:pos-sub+1] + string[pos-sub+2:]
+        sub += 1
+
     for token in string.split(' '):
         if processTokenForMail(token) == "1":
             foutMail.write("0\t0\t0\n")
 tree = ET.parse(a_file)
 root = tree.getroot()
-page = root.find('PAGE')
-texts = page.findall('TEXT')
-iMail = 0
-stringMail = ""
+# page = root.find('PAGE')
+# texts = page.findall('TEXT')
+# iMail = 0
+# stringMail = ""
+# twotextstaken = False
+# while iMail<len(texts):
+#     for tokens in texts[iMail].findall('TOKEN'):
+#         if tokens.text is None:
+#             #print tokens.text
+#             continue
+#         if type(tokens.text) is unicode:
+#             stringMail += unicodedata.normalize('NFKD', tokens.text).encode('ascii','ignore')
+#         else:
+#             stringMail += tokens.text
+#         stringMail += " "
+#     if(twotextstaken == False):
+#         twotextstaken = True
+#         iMail += 1
+#         continue
+#     else:
+#         #print iMail,
+#         if processStringForMail(stringMail)!=-1:
+#             iMail += 1
+#         stringMail = ""
+#         twotextstaken = False
+count = 0
 twotextstaken = False
-while iMail<len(texts):
-    for tokens in texts[iMail].findall('TOKEN'):
-        if tokens.text is None:
-            #print tokens.text
-            continue
-        if type(tokens.text) is unicode:
-            stringMail += unicodedata.normalize('NFKD', tokens.text).encode('ascii','ignore')
-        else:
-            stringMail += tokens.text
-        stringMail += " "
-    if(twotextstaken == False):
-        twotextstaken = True
-        iMail += 1
-        continue
-    else:
-        #print iMail,
-        if processStringForMail(stringMail)!=-1:
+for page in root.findall('PAGE'):
+    count += 1
+    if count > 2:
+        break
+    texts = page.findall('TEXT')
+    iMail = 0
+    stringMail = ""
+    while iMail<len(texts):
+        for tokens in texts[iMail].findall('TOKEN'):
+            if tokens.text is None:
+                #print tokens.text
+                continue
+            if type(tokens.text) is unicode:
+                stringMail += unicodedata.normalize('NFKD', tokens.text).encode('ascii','ignore')
+            else:
+                stringMail += tokens.text
+            stringMail += " "
+        if(twotextstaken == False):
+            twotextstaken = True
             iMail += 1
-        stringMail = ""
-        twotextstaken = False
+            continue
+        else:
+            #print iMail, stringMail,
+            if processStringForMail(stringMail)!=-1:
+                iMail += 1
+            stringMail = ""
+            twotextstaken = False
