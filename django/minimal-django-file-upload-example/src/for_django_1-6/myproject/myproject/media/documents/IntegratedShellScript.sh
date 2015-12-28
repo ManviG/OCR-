@@ -1,10 +1,10 @@
 Directory=/var/www/html/OCR++/django/minimal-django-file-upload-example/src/for_django_1-6/myproject/myproject/media/documents
 
-$Directory/files/pdftoxml.linux64.exe.1.2_7 $Directory/input.pdf
-
+$Directory/files/pdftoxml.linux64.exe.1.2_7 -noImage -noImageInline $Directory/input.pdf
+$Directory/files/pdftoxml.linux64.exe.1.2_7 -noImage -noImageInline -l 2 $Directory/input.pdf $Directory/input_2.xml
 #samuel
 #rm $Directory/input.pdf
-rm -r $Directory/input.xml_data
+#rm -r $Directory/input.xml_data
 echo "1/10 section starting"
 python $Directory/files/Secmapping.py > $Directory/Secmap.xml
 echo "1/10 section done"
