@@ -1,2 +1,6 @@
 <<url>>
-http://dx.doi.org/10.1145/2600428.2609581
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+<<url>>
+http://dx.doi.org/10.1016/j.cja.2015.07.005
+<<url>>
+http://creativecommons.org/licenses/by-nc-nd/4.0/

@@ -25,7 +25,7 @@ def generateXML(tree):
     xroot = ET.Element("sec_map")
     new_section = ET.SubElement(xroot, "section")
     # new_section =  ET.Element("section")
-    with open("finalsec.txt", "r") as f:
+    with open(directory + "finalsec.txt", "r") as f:
         count = 0
         for line in f:
             cols = line.split('\t')
@@ -247,11 +247,11 @@ for ff in files:
 
     f.close()
     # print("crf_test -m mod2 " + ff.split('.')[0]+'_out_new.txt'+" > " + "final.txt")
-    subprocess.call("crf_test -m " + directory + "files/mod2 " + ff.split('.')[0]+'_out_new.txt'+" > " + "finalsec.txt",shell=True)
+    subprocess.call("crf_test -m " + directory + "files/mod2 " + ff.split('.')[0]+'_out_new.txt'+" > " + directory + "finalsec.txt",shell=True)
     s = generateXML(tree)
     cc =  ET.tostring(s, 'utf-8')
     reparsed = xml.dom.minidom.parseString(cc)
     print reparsed.toprettyxml(indent="\t")
-    subprocess.call("rm  finalsec.txt", shell=True)
+    subprocess.call("rm " + directory + "finalsec.txt", shell=True)
     subprocess.call("rm " +  ff.split('.')[0]+'_out_new.txt', shell=True)
     # subprocess.call("rm " +  "input.xml", shell=True)11

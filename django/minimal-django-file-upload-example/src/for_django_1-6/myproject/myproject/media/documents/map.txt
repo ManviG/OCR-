@@ -1,6 +1,7 @@
 <email_author>
+[['Gong', 'Xiaoliang'], ['Stephan', 'Bansmer']]
 	<map>
-		Oren Kurland 
-		kurland@ie.technion.ac.il
+		Gong Xiaoliang 
+		xlianggong@gmailcom
 	</map>
 </email_author>

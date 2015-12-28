@@ -190,18 +190,17 @@
 				// Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
 				var cell1 = row.insertCell(0);
 				var cell2 = row.insertCell(1);
-				var cell3 = row.insertCell(2);
-				var cell4 = row.insertCell(3);
-				var cell5 = row.insertCell(4);
+				// // var cell3 = row.insertCell(2);				// var cell4 = row.insertCell(3);
+				//// // var cell5 = row.insertCell(4);
 
 				// Add some text to the new cells:
-				cell1.innerHTML = "<textarea id=\"titl_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+				cell2.innerHTML = "<textarea id=\"titl_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 				document.getElementById("titl_output").style.display = "block";
 				document.getElementById("titl_output").innerHTML = text.slice(1,-2);
-				cell2.innerHTML = "Title";
-				cell3.innerHTML = "<input type=\"radio\" name=\"title\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-				cell4.innerHTML = "<input type=\"radio\" name=\"title\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-				cell5.innerHTML = "<input type=\"radio\" name=\"title\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+				cell1.innerHTML = "Title";
+				// // cell3.innerHTML = "<input type=\"radio\" name=\"title\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+				// // cell4.innerHTML = "<input type=\"radio\" name=\"title\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+				// // cell5.innerHTML = "<input type=\"radio\" name=\"title\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			}, 1000);
 		}
 
@@ -228,18 +227,17 @@
 					// Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"aut_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"aut_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("aut_output").style.display = "block";
-					document.getElementById("aut_output").innerHTML = text.slice(1,-2);
-					cell2.innerHTML = "Author " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"author"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"author"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"author"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					document.getElementById("aut_output").innerHTML = text.slice(1,-1);
+					cell1.innerHTML = "Author " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"author"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"author"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"author"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 					
 			    }
 			    document.getElementById("noAut").value = noAut;
@@ -269,18 +267,17 @@
 					// Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"email_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"email_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("email_output").style.display = "block";
-					document.getElementById("email_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Email " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"email"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"email"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"email"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					document.getElementById("email_output").innerHTML = text.slice(2,-1);
+					cell1.innerHTML = "Email " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"email"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"email"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"email"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noEmail').value = noEmail;
 			    // document.getElementById('ta_output').style.display = "block";
@@ -309,18 +306,17 @@
 					// Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"affil_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"affil_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("affil_output").style.display = "block";
 					document.getElementById("affil_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Affil " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"affil"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"affil"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"affil"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "Affil " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"affil"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"affil"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"affil"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noAffil').value=noAffil;
 			    // document.getElementById('ta_output').style.display = "block";
@@ -349,18 +345,17 @@
 					// Insert new cells (<td> elements)
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"sec_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"sec_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("sec_output").style.display = "block";
 					document.getElementById("sec_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Section " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"sec"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"sec"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"sec"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "Section " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"sec"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"sec"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"sec"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noSec').value=noSec;
 			}, 1000);
@@ -388,18 +383,17 @@
 					// Insert new cells (<td> elements)
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"fig_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"fig_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("fig_output").style.display = "block";
 					document.getElementById("fig_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Figure " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"fig"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"fig"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"fig"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "Figure " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"fig"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"fig"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"fig"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noFig').value=noFig;
 			}, 1000);
@@ -427,18 +421,17 @@
 					// Insert new cells (<td> elements)
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"tab_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"tab_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("tab_output").style.display = "block";
 					document.getElementById("tab_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Table " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"tab"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"tab"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"tab"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "Table " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"tab"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"tab"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"tab"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noTab').value=noTab;
 			}, 1000);
@@ -466,18 +459,17 @@
 					// Insert new cells (<td> elements)
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"url_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"url_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("url_output").style.display = "block";
 					document.getElementById("url_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "URL " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"url"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"url"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"url"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "URL " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"url"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"url"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"url"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noUrl').value=noUrl;
 			}, 1000);
@@ -505,18 +497,17 @@
 					// Insert new cells (<td> elements)
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);					var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"fn_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"fn_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("fn_output").style.display = "block";
 					document.getElementById("fn_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Footnote " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"fn"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"fn"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"fn"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "Footnote " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"fn"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"fn"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"fn"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noFn').value=noFn;
 			}, 1000);
@@ -544,18 +535,18 @@
 					// Insert new cells (<td> elements)
 					var cell1 = row.insertCell(0);
 					var cell2 = row.insertCell(1);
-					var cell3 = row.insertCell(2);
-					var cell4 = row.insertCell(3);
-					var cell5 = row.insertCell(4);
+					// var cell3 = row.insertCell(2);
+					// var cell4 = row.insertCell(3);
+					// var cell5 = row.insertCell(4);
 
 					// Add some text to the new cells:
-					cell1.innerHTML = "<textarea id=\"map_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
+					cell2.innerHTML = "<textarea id=\"map_output\" style=\"background-color:yellow;\" class=\"answer_list\" rows=\"30\" cols=\"60\" > WELCOME</textarea>";
 					document.getElementById("map_output").style.display = "block";
 					document.getElementById("map_output").innerHTML = text.slice(1,-1);
-					cell2.innerHTML = "Map " + i;
-					cell3.innerHTML = "<input type=\"radio\" name=\"map"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell4.innerHTML = "<input type=\"radio\" name=\"map"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
-					cell5.innerHTML = "<input type=\"radio\" name=\"map"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					cell1.innerHTML = "Map " + i;
+					// cell3.innerHTML = "<input type=\"radio\" name=\"map"+i+"\" value=\"correct\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell4.innerHTML = "<input type=\"radio\" name=\"map"+i+"\" value=\"incorrect\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
+					// cell5.innerHTML = "<input type=\"radio\" name=\"map"+i+"\" value=\"partial\" style=\"position:relative; left:5px; height:20px; width:20px;\">";
 			    }
 			    document.getElementById('noMap').value=noMap;
 			}, 1000);
@@ -573,7 +564,7 @@
 				{{ form.docfile }}
 				<p><input id="submit" type="submit" value="Upload" /></p>
 			</form>
-			<a id="process" href="runScript">Process</a>
+			<!-- <a id="process" href="runScript">Process</a> -->
 			<a id="op_button" onclick="op()">Output<a>		
 		</div>
 		<form action="{% url "vote" %}" method="post" id="loginform">
@@ -587,9 +578,10 @@
 					</th>
 					
 					<th>
+						Extracted Output
 					</th>
 					
-					<th>
+					<!-- <th>
 						<label>Right</label>
 					</th>
 					
@@ -599,7 +591,7 @@
 					
 					<th>
 						<label>Partial</label>
-					</th>
+					</th> -->
 				</tr>
 
 			</div>

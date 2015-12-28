@@ -39,7 +39,7 @@ from itertools import izip
 # ord(u"’"): u"'", ord(u"-"):u"",
 # }
 directory = '/var/www/html/OCR++/django/minimal-django-file-upload-example/src/for_django_1-6/myproject/myproject/media/documents/'
-
+names = ""
 track = 0
 track1 = 0
 f = open(directory + 'names.txt','w')
@@ -90,7 +90,11 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 			# y1 = y[0].split("@")
 			# y1 = y1[0]
 
-			author.insert(track1,x)
+			uni_x = []
+			for it in x:
+				it = unicodedata.normalize('NFKD',it.decode("utf-8","ignore")).encode("ascii","ignore")
+				uni_x.append(it)
+			author.insert(track1,uni_x)
 			# mail.insert(track,y[0])
 			# ma.insert(track,y[0])
 			track1 = track1 + 1
@@ -107,7 +111,13 @@ with open(directory+'names.txt','r') as f1, open(directory+'input_Allmailsformap
 
 			y1 = y[0].split("@")
 			y1 = y1[0]
-
+			y[0] = y[0].replace('_','')
+			y1 = y1.replace('_','')
+			y[0] = y[0].replace('.','')
+			y1 = y1.replace('.','')
+			for i in range(10):
+				y[0] = y[0].replace(str(i),'')
+				y1 = y1.replace(str(i),'')
 			# author.insert(track1,x)
 			mail.insert(track,y[0])
 			ma.insert(track,y[0])

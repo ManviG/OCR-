@@ -19,11 +19,11 @@ def genFile(fName, path=""):
         # print "<<section>>"
         f.write("<<name>>\n")
         if(len(fn)>0):
-            f.write("First name : "+fn[0].text+"\n")
+            f.write("First name : "+fn[0].text.split()[0]+"\n")
         if(len(mn)>0):
-            f.write("Middle name : "+mn[0].text+"\n")
+            f.write("Middle name : "+mn[0].text.strip('\t').strip('\n').strip('\t')+"\n")
         if(len(ln)>0):
-            f.write("Last name : "+ln[0].text+"\n")
+            f.write("Last name : "+ln[0].text.split()[0]+"\n")
     f.close()
     print "Done!!!"
 

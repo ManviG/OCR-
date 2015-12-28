@@ -5,4 +5,5 @@ urlpatterns = patterns('myproject.myapp.views',
     url(r'^list/$', 'list', name='list'),
     url(r'^list/runScript/$', 'runScript', name='runScript'),
     url(r'^list/vote/$', 'vote', name='vote'),
+    # url(r'^list/upload/$', 'upload', name='upload'),
 )

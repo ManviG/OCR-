@@ -1,5 +1,8 @@
-<?xml version="1.0" ?>
 
 <email>
-	kurland@ie.technion.ac.il
+	xlianggong@gmail.com
+</email>
+
+<email>
+	cja@buaa.edu.cn
 </email>

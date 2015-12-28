@@ -15,7 +15,7 @@ class UserDetails(models.Model):
 class Response(models.Model):
 	"""docstring for response"""
 	# userdetails = models.ForeignKey(UserDetails)
-	paperid = models.IntegerField()
+	# paperid = models.IntegerField()
 	user_email = models.EmailField()
 	title = models.FloatField()
 	authorNames = models.FloatField()

@@ -175,9 +175,9 @@ def vote(request):
     else:
         fn = c/(c+w)
 
-        pid = len(all_entries)+1
+        # pid = len(all_entries)+1
 
-    p = Response(paperid=pid,user_email=uemail,title=title,authorNames=aut,urls=url,email=email,affiliation=affil,sections=sec,emailAuthMap=mapp,figHeading=fig,Footnotes=fn,TableHeading=tab);
+    p = Response(user_email=uemail,title=title,authorNames=aut,urls=url,email=email,affiliation=affil,sections=sec,emailAuthMap=mapp,figHeading=fig,Footnotes=fn,TableHeading=tab);
     p.save()
     all_entries = Response.objects.all();
     print len(all_entries);
@@ -185,48 +185,22 @@ def vote(request):
     subprocess.call("mv " + directory + "input.pdf " + directory + str(len(all_entries))+".pdf", shell=True)
     subprocess.call("mv " + directory + str(len(all_entries)+1) + ".pdf " + directory + "input.pdf", shell=True)
 
+    # render_to_response('myapp/list.html', {'next': str(len(all_entries)+1)})
+
     return HttpResponse("Done")
 
-def runScript(request):
-    # subprocess.call("rm " + directory + "input.pdf", shell=True)
-    # file_name = glob.glob(directory+'*.pdf')
+def runScript():
+    subprocess.call("rm " + directory + "input.pdf", shell=True)
+    # print paperid
+    file_name = glob.glob(directory+'*.pdf')
     # print file_name[0] + "****************************"
-    # fn = file_name[0].split('/')
-    # fn = fn[-1]
+    fn = file_name[0].split('/')
+    fn = fn[-1]
     subprocess.call("clear", shell=True)
-    # subprocess.call("mv " + directory + fn + " " + directory + "input.pdf", shell=True)
-    subprocess.call(directory + "files/pdftoxml.linux64.exe.1.2_7 " + directory + "input.pdf", shell=True)
+    subprocess.call("mv " + directory + fn + " " + directory + "input.pdf", shell=True)
     
-    # barno
-    subprocess.call("python " + directory + "files/TitleAuthor_parse.py", shell=True)
-    subprocess.call("python " + directory + "files/extra.py", shell=True)
-    subprocess.call("crf_test -m " + directory + "files/model_new.txt " + directory + "test_file.txt > " + directory + "final.txt", shell=True)
-    subprocess.call("python " + directory + "files/printNameAuthor.py > " + directory + "TitleAuthor.xml", shell=True)
-    # barno
-
-    #samuel
-    # subprocess.call("rm " + directory + "input.pdf", shell=True)
-    subprocess.call("rm -r " + directory + "input.xml_data", shell=True)
-    subprocess.call("python " + directory + "files/Secmapping.py > " + directory + "Secmap.xml", shell=True)
-    #samuel
-
-    #integrated
     subprocess.call(directory + "IntegratedShellScript.sh ", shell=True)
-    #integrated
-
     
-    subprocess.call(directory + "Mapping.sh",shell = True)
-
-    #ayush
-    subprocess.call("python " + directory + "url.py > " + directory + "URLop.txt", shell=True)
-    subprocess.call("python " + directory + "footnotes.py > " + directory + "FOOTNOTEop.txt", shell=True)
-    subprocess.call("python " + directory + "tables_figures.py > " + directory + "TABFIGop.txt", shell=True)
-    subprocess.call("rm " + directory + "input.xml", shell=True)
-   
-    subprocess.call(directory + "eval_op.sh",shell = True)
-
-    # subprocess.call(directory + "Clean.sh",shell = True)
-
     return HttpResponse("Done")
     
 def list(request):
@@ -239,6 +213,7 @@ def list(request):
         if form.is_valid():
             newdoc = Document(docfile = request.FILES['docfile'])
             newdoc.save()
+            runScript()
 
             # Redirect to the document list after POST
             return HttpResponseRedirect(reverse('myproject.myapp.views.list'))
@@ -260,5 +235,6 @@ def list(request):
     return render_to_response(
         'myapp/list.html',
         {'documents': documents, 'form': form},
+
         context_instance=RequestContext(request)
     )
